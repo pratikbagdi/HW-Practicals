@@ -1,0 +1,20 @@
+#include "grove.h" 
+#include <stdio.h> 
+#include <unistd.h> 
+int main()
+{
+    upm::GroveButton* button = new upm::GroveButton(4);
+    int count = 5;
+    int button_val=0;
+    while( count > 0 ) {
+    	button_val = button->value(); 
+    	printf ("Program will exit after %d button presses\n", count);
+    	printf ("Button value is: %d\n ", button_val);
+        if (button_val)
+        	count--;
+        usleep(500000); 
+    }
+	printf ("Exiting, bye!");
+    delete button;
+}
+

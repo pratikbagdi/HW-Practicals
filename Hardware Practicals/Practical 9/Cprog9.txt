@@ -1,0 +1,33 @@
+#include "jhd1313m1.h"
+#include <stdio.h>
+#include <unistd.h>
+int main(void)
+{
+	upm::Jhd1313m1 *lcd;
+    lcd = new upm::Jhd1313m1(0, 0x3E, 0x62); 
+    printf("Display text on LCD\n");
+    lcd->setCursor(0,0);
+	
+    lcd->write("Batch 4");	
+
+    lcd->setCursor(1,2);
+	
+    lcd->write("welcome !");	
+
+    printf("Sleeping for 5 seconds\n");
+    sleep(5);
+    printf("Starting Color loop...\n");
+   
+    for (int i = 5; i>0 ;i--){
+    lcd->setColor(255,220,220);	
+    sleep(1);
+    lcd->setColor(0,255,0);	
+    sleep(1);
+    lcd->setColor(0,0,125);	
+    sleep(1);
+    }
+    printf("Exiting .. bbye!\n");
+    delete lcd;
+    return 0;
+}
+

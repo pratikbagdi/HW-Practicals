@@ -1,0 +1,26 @@
+Aim :-
+To interface LED with Intel Galileo board and write a program to turn on LED repeatedly after every one second interval.
+
+Tool :-
+Sr No.	Tools			Specifications		Qty
+1	Development Kit		IoT 3500 Kit		1
+2	Computer System		4GB RAM,  1TB HDD	1
+3	LED Display		LD15, for Galileo 	1
+
+Theory :-
+Steps to implement above statement in Galileo board: 
+1)	Plug Galileo to computer and power on.
+2)	Power computer system enter passwords.
+3)	Open ‘Eclipse IDE’ on Linux OS that is already installed.
+4)	All the programs were given in workspace of Eclipse.
+5)	Click on create connection  new connection  enter Galileo IP address and name your connection.  
+6)	Click Next  right click on connection  click start connection  connection will now change to green.
+7)	 Write appropriate program and run by clicking on run button.
+8)	 Write command to interface LED to Galileo 
+9)	Upload the code to Galileo and click on run.
+
+Result :-
+Compilation and Installation of LED interfacing after every one second is done and process understood.
+
+Conclusion :-
+Target board of such types can be used in low-cost system designs using very less amount of components and can be used for many user defined application.

@@ -1,0 +1,27 @@
+Aim :-
+To interface touch sensor with intel Galileo board and write a program to sense a finger when it is placed on intel Galileo board.
+
+Tool :-
+Sr.no.	Tools				Specifications		Qty
+1	IoT 3500 Development Kit	Intel Galileo kit	1
+2	Computer System			4GB RAM, 1TB HDD	1
+
+Theory :-
+Steps to interface touch sensor with intel Galileo board
+Materials used of kit: Touch Sensor, Connecting Wires, Galileo board.
+Hardware / Software setup: 
+1)	Connect touch sensor to Galileo board by using connecting wires to input analog pin of Galileo board (e.g., D4).
+2)	Power ON Galileo board, connect it to computer system.
+3)	Open Ellipse IDE on computer, connect to existing connection.
+4)	Write program on new file.
+5)	Save the program.
+6)	Upload to Galileo board using console command.
+7)	Install related pkg
+		Enter   pkg update
+			pkg install i2C-tools
+			i2_detect-x-y < i2C_bus_number >
+8)	Click on RUN.
+9)	Check the output on Galileo board.
+
+Conclusion :-
+Program to interface touch sensor with Galileo board and sense finger, if it is place on Galileo board implemented successfully.

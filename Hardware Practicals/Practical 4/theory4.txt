@@ -1,0 +1,27 @@
+Aim :-
+To interface buzzer with Intel Galileo board and write a program to buzz on and off with a delay of one second.
+
+Tool :-
+Sr.no.	Tools				Specifications		Qty
+1	IoT 3500 Development Kit	Intel Galileo kit	1
+2	Computer System			4GB RAM,1TB HDD		1
+3	Buzzer, Connecting wires 	-			1
+4	Eclipse IDE			-			1
+
+Theory :-
+Steps to interface buzzer with intel Galileo:
+Materials used: Buzzer, Connecting wires, Galileo board.
+Hardware setup:
+1)	Connect buzzer to Galileo board using connecting wire to digital input pin (i.e., D5).
+2)	Connect power adapter of board and turn it ON.
+3)	Open Eclipse IDE in computer system. 
+4)	Connect to Galileo connection. 
+5)	Write code in new file. 
+6)	Upload code in Galileo using console. 
+7)	Click on RUN button.
+
+Result :- 
+Program implemented correctly, and problem understood clearly.
+
+Conclusion :- 
+Program to interface buzzer, with Intel Galileo board to buzz ON and OFF after delay of one second implemented successfully.

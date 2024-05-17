@@ -1,0 +1,31 @@
+Aim :-
+To interface push button with Intel Galileo board and write program to turn on LED when push button is pressed.
+
+Tool :-
+Sr.no.	Tools				Specifications		Qty
+1	IoT 3500 Development Kit	Intel Galileo kit	1
+2	Computer System			4GB RAM, 1TB HDD	1
+3	LED 				LD15 			1
+
+Theory :-
+Steps to interface push button:
+Materials used: 
+1)	Intel Galileo board
+2)	Push button 
+3)	LED 
+4)	Resistor
+5)	Connecting wires
+Hardware setup steps:
+1)	Connect one terminal of push button to a digital input pin (i.e., D2) on Galileo board.
+2)	Connect jumper wired from D2 on Galileo board to some row on push button.
+3)	Connect LED to Galileo board using another connecting wire.
+4)	Power ON Galileo and connect with computer system.
+5)	Open eclipse and connect to your Galileo connection.
+6)	Write program in new file and save. 
+7)	Upload into Galileo and click on run.
+
+Result :- 
+Given problem statement successfully implemented. 
+
+Conclusion :- 
+Program to interface push button to LED to turn ON when button pressed implemented successfully.

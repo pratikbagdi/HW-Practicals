@@ -1,0 +1,26 @@
+Aim :-
+To interface LCD with intel Galileo board and write a program to display any text.
+
+Tool :-
+Sr.no.	Tools				Specifications		Qty
+1	IoT 3500 Development Kit	Intel Galileo kit	1
+2	Computer System			4GB RAM,1TB HDD		1
+3	LCD Display			-			1
+4 	Jumper Wires			-			1
+
+Theory :-
+Steps to interface the LCD display and write a program to display text.
+1)	Connect the VCC pin of the LCD display to the VCC pin on the Galileo board.
+2)	Connect the GND pin of the LCD display to the GND pin on the Galileo board.
+3)	Connect the SDA pin of the LCD display to the SDA pin on the Galileo board.
+4)	Connect the SCL pin of the LCD display to the SCL pin on the Galileo board.
+5)	Connect the Galileo board to a computers and open Arduino IDE.
+6)	Go to “Sketeli” -> “Include Library” -> “Manage libraries”.
+7)	In the library Manager. Search for “liquid crystal 12C”.
+8)	Install the “liquid crystal 12C” library by Arduino.
+
+Result :-
+After uploading the process is complete. The LCD display should start showing the message.
+
+Conclusion :-
+To interface LCD Display with intel Galileo board and write a program to display some text has been implemented successfully.

@@ -1,0 +1,25 @@
+Aim :-
+To interface rotary angle sensor/ potentiometer with the Galileo board and write a program to control the readings of sensor of changing the angle of potentiometer.
+
+Tool :-
+Sr.no.	Tools				Specifications		Qty
+1	IoT 3500 Development Kit	Intel Galileo kit	1
+2	Computer System			4GB RAM,1TB HDD		1
+3	Rotary Angle Senser		-			1
+4 	Jumper Wires			-			1
+
+Theory :-
+Steps to interface rotary angle senser with the Galileo board and write a program to control the readings of the sensor are as follows:
+1)	Connect the Grove Rotary Angle Sensor to an analog port (A1) on the shield. Then, connect the shield to the Galileo board.
+2)	Open Arduino IDE. Go to sketch -> Include library -> Manage libraries. Search for “UPM” for install the “GroveUPM” library by Arduino.
+3)	Copy the provided program code into a new sketch in the Arduino IDE.
+4)	Go to Tools -> Board and select “Galileo” or “Galileo Gen2” depending on your board. Then go to Tools -> Port and  Select the COM port your Galileo board is connected to.
+5)	Click the upload button to upload the program to your Galileo board.
+6)	Open the serial monitor by going to Tools -> Serial Monitor. Set band rate to 9600 (usually the default).
+7)	Turn the knob of the rotary sensor. You should see readings on the serial monitor that update every second. 
+
+Result :-
+When we run the program and rotate the knob of the rotary sensor, we see output on the serial monitor that updates every second.
+
+Conclusion :-
+The practical successfully demonstrates how to interface a rotary angle sensor (or potentiometer) with a Galileo board. The provided program reads the sensor values and displays them on the serial monitor allowing to observe the relationship between the sensors physical rotation and output readings.
